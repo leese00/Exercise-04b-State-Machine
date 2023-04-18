@@ -30,4 +30,3 @@ func set_state(s):
 		state = new_state
 		if state.has_method("start"):
 			state.start()
-
